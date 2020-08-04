@@ -1,1 +1,46 @@
-# Empty CSS file for your own CSS
+/* #landing,
+#landing-image {
+    float: left;
+}
+
+*/
+
+.logo {
+    height: 60px;
+    background-color: #4AAAA5;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+    padding-top: 10px;
+}
+
+.mainbox {
+    background-color: #EDEDED;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#landing-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.each-image {
+    width: 150px;
+    height: 150px;
+}
+
+div.sidebar {
+    background-color: white;
+}
+
+div.main-area {
+    background-color: white;
+}
