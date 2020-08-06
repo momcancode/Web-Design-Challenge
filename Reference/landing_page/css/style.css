@@ -1,4 +1,3 @@
-
 .logo {
     height: 60px;
     background-color: #4AAAA5;
@@ -61,7 +60,21 @@ h2 {
     height: 180px;
 }
 
+.nav {
+    visibility: visible;
+}
+
+.navbar {
+    visibility: hidden;
+}
+
 @media (max-width: 768px) {
-    .
+    .nav {
+        visibility: hidden;
+    }
+
+    .navbar {
+        visibility: visible;
+    }
 }
 

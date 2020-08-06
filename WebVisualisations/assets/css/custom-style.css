@@ -1,0 +1,35 @@
+#main-content {
+  background-color: #ededed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-area {
+  background-color: #ededed;
+}
+
+.main-area-content, .main-area-sidebar {
+    background-color: white;
+}
+
+
+#landing-image {
+  width: 250px;
+  height: 250px;
+  margin: 30px 30px 0 30px;
+  float: left;
+}
+
+p {
+  padding: 30px 40px 40px 30px;
+  line-height: 2;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.each-image {
+  width: 150px;
+  height: 150px;
+}
