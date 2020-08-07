@@ -5,13 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Landing Page - Web Visualizations</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Comparison Temperature - Web Visualizations</title>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,9 +16,8 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/custom-style.css" rel="stylesheet">
 
 </head>
 
@@ -35,9 +28,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center">
         <div class="logo mr-auto">
-          <h1 class="text-light"><a href="index.html"><span>Latitude</span></a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <h1 class="text-light"><a href="#"><span>Latitude</span></a></h1>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
@@ -58,47 +49,43 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Main Area ======= -->
   <main id="main">
     <section class="inner-page main-area">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <div class="mr-3 main-area-content">
-              <h1 class="landing-h1">
-                Summary: Latitude vs. X
+              <h1>
+                Max Temperature
               </h1>
-              <section>
-                <img id="landing-image" alt="Lat vs Temp" src="assets/img/Temperature.png">
+              <div>
+                <img id="big-landing-image" alt="Lat vs Temp" src="assets/img/Temperature.png">
                 <p>
-                  The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                  <br>
-                  <br>
-                  After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                  As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
                 </p>
-              </section>
+              </div>
             </div>						
           </div>
   
           <div class="col-md-4 main-area-sidebar">
-            <div class="sidebar">
-              <h2>
-                Visualizations
-              </h2>
-              <div class="row">
-                <div class="col-md-6 mx-auto">
-                  <div class="text-center"><img class=each-image alt="Temperature" src="assets/img/Temperature.png"></div>
-                </div>
-                <div class="col-md-6 mx-auto">
-                  <div class="text-center"><img class=each-image alt="Humidity" src="assets/img/Humidity.png"></div>
-                </div>
+            <h2>
+              Visualizations
+            </h2>
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <div class="text-center"><img class=each-image alt="Temperature" src="assets/img/Temperature.png"></div>
               </div>
-              <div class="row">
-                <div class="col-md-6 mx-auto">
-                  <div class="text-center"><img class=each-image alt="Cloudiness" src="assets/img/Cloudiness.png"></div>
-                </div>
-                <div class="col-md-6 mx-auto">
-                  <div class="text-center"><img class=each-image alt="Windspeed" src="assets/img/Windspeed.png"></div>
-                </div>
+              <div class="col-md-6 mx-auto">
+                <div class="text-center"><img class=each-image alt="Humidity" src="assets/img/Humidity.png"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <div class="text-center"><img class=each-image alt="Cloudiness" src="assets/img/Cloudiness.png"></div>
+              </div>
+              <div class="col-md-6 mx-auto">
+                <div class="text-center"><img class=each-image alt="Windspeed" src="assets/img/Windspeed.png"></div>
               </div>
             </div>
           </div>
