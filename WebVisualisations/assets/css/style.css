@@ -24,12 +24,6 @@ h1, h2 {
   border-bottom: 1px solid #ededed;
 }
 
-h3 {
-  font-family: 'Times New Roman', Times, serif;
-  color: #4aaaa5;
-  font-weight: bold;
-  font-size: large;
-}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -346,4 +340,24 @@ div > p {
 .each-large-image {
   width: 480px;
   height: 300px;
+}
+
+.text-center > h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-area-content > span {
+  padding: 0 0 60px 30px;
+  font-size: 16px;
+}
+
+.main-area-content > .card {
+  border: none;
+}
+
+.main-area-content > .card > .card-body > p {
+  padding: 30px 30px;
 }
