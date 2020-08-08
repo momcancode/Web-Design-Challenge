@@ -9,9 +9,9 @@ The web is deployed to this [Github pages](https://momcancode.github.io/Web-Desi
 ## What does the website have?
 * [Landing page](#index.html)
 * Four visualization pages:
-  * [Temperature](#comparison_temp.html)
+	* [Temperature](#comparison_temp.html)
 	* [Humidity](#comparison_humid.html)
-	* [Cloudiness](#comparison_cloud.html
+	* [Cloudiness](#comparison_cloud.html)
 	* [Wind Speed](#comparison_wind.html)
 * ["Comparisons" page](#comparisons_all.html)
 * ["Data" page](#data.html)
