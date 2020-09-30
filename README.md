@@ -17,3 +17,8 @@ The web is deployed to this [Github pages](https://momcancode.github.io/Web-Desi
 * ["Data" page](#data.html)
 
 This assignment uses Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
+
+---
+Contact:
+
+Email: thao.ph.ha@gmail.com
